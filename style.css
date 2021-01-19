@@ -1,0 +1,41 @@
+body {
+  color: #555555;
+  font-size: 14px;
+  background-color: #AAB6A2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div {
+  background-color: #91C3DC;
+  width: 70%;
+  padding: 5%;
+  margin: 10%
+}
+h1 {
+  font-size: 64px;
+  color: #666666;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 4px;
+}
+h2 {
+  font-size: 32px;
+}
+footer {
+  font-size: 10px;
+  text-align: center;
+}
+img {
+  width: 100%;
+  object-fit: scale-down;
+}
+a:link{
+  color: #555555;
+}
+a:visited{
+  color: #555555;
+}
+a:active{
+  color: #555555;
+}
+a:hover{
+  color: #999999;
+}
