@@ -1,9 +1,13 @@
+/*Using a battleship grey color pallete taken from: https://www.colorcombos.com/color-schemes/250/ColorCombo250.html "This color palette contains the following web hex color codes: #4086AA, #91C3DC, #87907D, #AAB6A2, #555555, #666666. The colors from this colour combination are described by the following tags: BATTLESHIP GRAY, BLUE, BUD, DOVE GRAY, EMPEROR, GRAY, GREEN, GREEN YELLOW, GREY, MORNING GLORY, STEEL BLUE."*/
+/*Body color*/
 body {
   color: #555555;
   font-size: 14px;
   background-color: #AAB6A2;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/*div to center content on the page inside a padded box*/
 div {
   background-color: #91C3DC;
   width: 70%;
@@ -11,23 +15,28 @@ div {
   margin: 10%;
   max-width: 600px;
 }
+
 h1 {
   font-size: 64px;
   color: #666666;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   letter-spacing: 4px;
 }
+
 h2 {
   font-size: 32px;
 }
+
 footer {
   font-size: 10px;
   text-align: center;
 }
+
 img {
   width: 100%;
   object-fit: scale-down;
 }
+
 a:link{
   color: #555555;
 }

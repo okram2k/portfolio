@@ -8,6 +8,7 @@
   </head>
   <body>
     <div>
+    <!-- start header-->
     <header>
     <h1>Marko Fithian</h1>
     <h2>Nerd for hire.</h2>
@@ -16,14 +17,28 @@
        - 
       <a href = "portfolio.html">Portfolio</a>
        - 
-      <a href = "contact.html">Contact</a>
+      <a href="contact.html">Contact</a>
     </nav>
     </header>
+    <!--End header-->
     
     <main>
+      <!--Main content of the portofolio is split up into Sections based upon type of project and then each project itself is inside an <article> tag.-->
+        <!--Template to add a new project to the portfolio:
+        <article>
+          <h4>Project Name</h4>
+          <img src="images/project1.png" meta="Image Description">
+          <p>Project Description.</p>
+          <p>Skills Used</p>
+          <ul>
+            <li>First Skill</li>
+            <li>Second Skill</li>
+          </ul>
+        </article>
+        -->
       <h2>Portfolio</h2>
       <p>Over my years I have worked on many projects over a wide array of languages and systems for personal, educational, and professional reasons. Here are a few highlights!</p>
-    
+      <!--Start First section, professional projects -->
       <section>
         <h3>Professional Projects</h3>
         <article>
@@ -37,6 +52,8 @@
           </ul>
         </article>
       </section>
+      <hr>
+      <!--Start Second Section, Academic Projects-->
       <section>
       <h3>Academic Projects</h3>
       <article>
@@ -65,7 +82,8 @@
           </ul>
         </article>
       </section>
-
+      <hr>
+      <!--Start Third Section, perssonal projects-->
       <section>
       <h3>Personal Projects</h3>
       <article>
@@ -93,13 +111,13 @@
             <li>Redstone Engineering</li>
           </ul>
         </article>
-
       </section>
-      
     </main>
+    <!-- Start Footer-->
     <footer>
       Marko Fithian - <a href="mailto:okram2k@gmail.com">okram2k@gmail.com</a>
     </footer>
+    <!-- End Footer-->
     </div>
     <script src="script.js"></script>
   </body>
