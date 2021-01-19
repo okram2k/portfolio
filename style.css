@@ -8,7 +8,8 @@ div {
   background-color: #91C3DC;
   width: 70%;
   padding: 5%;
-  margin: 10%
+  margin: 10%;
+  max-width: 600px;
 }
 h1 {
   font-size: 64px;
